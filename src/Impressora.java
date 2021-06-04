@@ -2,6 +2,10 @@
 public class Impressora {
    
     private String id;
+    
+    public Impressora(String id) {
+       this.id = id;
+    }
 
     public String getId() {
         return id;
@@ -11,9 +15,6 @@ public class Impressora {
         this.id = id;
     }
 
-    public Impressora(String id) {
-       this.id = id;
-    }
 
     /** 
      * No java, quem vai fazer o controle de Threads é a palavra reservada syncronized, ela não deixa o métodos imprimir 
@@ -27,6 +28,10 @@ public class Impressora {
      * BBBBBBBBBBBBBBBBBBBB          UMA REGRA DE ACESSO"
      * AAAAAAAAAAAAAAAAAAAA
      */
+
+        /* 
+            Teste de Webhook teste teste teste
+        */
 
     public synchronized void imprimir(String texto) {
         System.out.println("\t\t▶▶▶▶▶▶▶▶▶▶▶▶▶  " + Thread.currentThread().getName() + " começou a impressão na impressora " + id +"  ◀◀◀◀◀◀◀◀◀◀◀◀◀");       

@@ -5,7 +5,6 @@ public class MyThread implements Runnable{
     private String texto;
 
     public MyThread(Impressora impressoras, String texto) {
-        //this.name = name;       
         this.impressora = impressoras;
         this.texto = texto; 
         Thread x = new Thread(this);

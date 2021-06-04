@@ -1,6 +1,10 @@
 
 public class Main {    
     public static final int TEMPO = 3000;
+    /** 
+     * @autor Lucas Matheus do Nascimento Alves 
+     */
+    
     public static void main(String[] args) throws Exception {
         /**
          * Vou simular 6 Threads disputando 2 impressoras.
