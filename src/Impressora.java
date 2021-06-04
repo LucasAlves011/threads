@@ -31,6 +31,7 @@ public class Impressora {
 
         /* 
             Teste de Webhook teste teste teste
+            Qualquer coisa namoral coisa chata da porra teste de webhook
         */
 
     public synchronized void imprimir(String texto) {
