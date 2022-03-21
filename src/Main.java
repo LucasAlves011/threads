@@ -1,7 +1,7 @@
 
 public class Main {    
     public static final int TEMPO = 3000;
-    /** 
+    /** xd
      * @autor Lucas Matheus do Nascimento Alves 
      */
     
